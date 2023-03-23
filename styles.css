@@ -89,8 +89,8 @@ body {
   justify-content: center;
   align-content: center;
   flex-grow: 1;
-  grid-template-columns: repeat(var(--word-length), 6.5em);
-  grid-template-rows: repeat(var(--max-tries), 6.5em);
+  grid-template-columns: repeat(var(--word-length), 5em);
+  grid-template-rows: repeat(var(--max-tries), 5em);
   gap: .25em;
   margin-bottom: 1em;
 }
