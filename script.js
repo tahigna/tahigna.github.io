@@ -135,10 +135,7 @@ function pressKey(key) { // add key to first tile in grid
 
 function deleteKey() { 
   const activeTiles = getActiveTiles() // get array of active tiles
-  
-  if (activeTiles.length == 0) {
-    return
-  }
+  if (activeTiles.length == 0) return 
   const lastTile = activeTiles[activeTiles.length - 1] // get the last active tile
   if (lastTile === null) return // if that tile doesn't have any content, return
   lastTile.textContent = "" // set the text content to an empty string
